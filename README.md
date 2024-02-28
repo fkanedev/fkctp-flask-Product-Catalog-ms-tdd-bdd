@@ -47,3 +47,15 @@ Licensed under the Apache License. See [LICENSE](/LICENSE)
 John Rofrano, Senior Technical Staff Member, DevOps Champion, @ IBM Research
 
 ## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+
+
+# SOURCES
+
+**Github : [ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template](https://github.com/ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template)**
+## Coursera links :
+
+**Course : [Introduction to Test and Behavior Driven Development](https://www.coursera.org/learn/test-and-behavior-driven-development-tdd-bdd/home/week/1)**
+
+**Module : [Week 6 : Reading: Final Project Overview](https://www.coursera.org/learn/test-and-behavior-driven-development-tdd-bdd/supplement/VUCbg/reading-final-project-overview)**
+
+**Specialization : [IBM DevOps and Software Engineering Professional Certificate](https://www.coursera.org/professional-certificates/devops-and-software-engineering)**
