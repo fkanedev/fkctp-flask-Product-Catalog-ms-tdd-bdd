@@ -6,17 +6,16 @@ This final project is an **industry-based** case study involving the development
 
 1. [Introduction](#introduction)
 2. [Technologies Used](#technologies-used)
-3. [Installation](#installation)
-4. [Configuration](#configuration)
-5. [Usage](#usage)
-6. [Development](#development)
-7. [Testing](#testing)
-8. [Deployment](#deployment)
-9. [Source](#source)
-10. [License](#license)
-11. [Contact](#contact)
+3. [Installation and Configuration](#installation-configuration)
+4. [Usage](#usage)
+5. [Development](#development)
+6. [Testing](#testing)
+7. [Deployment](#deployment)
+8. [Source](#source)
+9. [License](#license)
+10. [Contact](#contact)
 
-## Introduction
+## Introduction 
 
 ### Project Objective
 
@@ -42,7 +41,7 @@ This project aims to create a microservice for a product catalog backend for an 
 - Selenium (for BDD)
 - Behave (for BDD scenarios)
 
-## Installation
+## Installation and Configuration <a name="installation-configuration"></a>
 
 ### Prerequisites
 
@@ -71,8 +70,6 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-## Configuration
-
 ### Environment Configuration
 
 Ensure the Python environment is properly set up with Python 3.8. Dependencies should be installed via `pip`.
@@ -80,7 +77,7 @@ Ensure the Python environment is properly set up with Python 3.8. Dependencies s
 ### Environment Variables
 
 - `FLASK_ENV=development`
-- `DATABASE_URL=sqlite:///products.db`
+- Other required configuration items are already defined in the [service/config.py](https://github.com/fkanedev/fkctp-flask-Product-Catalog-ms-tdd-bdd/blob/main/service/config.py) file.
 
 ## Usage
 
@@ -174,8 +171,7 @@ This backend project is primarily organized around the Flask framework. The dire
 
 ### Database
 
-This project uses SQLAlchemy as the Object Relational Mapper (ORM) to interact with the database. Integrated with Flask via Flask-SQLAlchemy, it provides an interface for creating and managing database tables and performing CRUD operations with Python.
-
+PostgreSQL serves as the database, accessible through the connection URI specified in the environment variables.SQLAlchemy acts as the Object Relational Mapper (ORM) for interacting with the database. Integrated with Flask through Flask-SQLAlchemy, it provides an interface to create and manage database tables and perform CRUD (Create, Read, Update, Delete) operations with Python.
 ### Data Model (About the Product Model)
 
 The data model for our product catalog is designed to store essential information about each product available in our eCommerce application. Here's an overview of the main features of the data model:
