@@ -1,6 +1,6 @@
 # Product Catalog Project
 
-This final project is an **industry-based** case study involving the development of a microservice for a product catalog backend used in an eCommerce application. I undertook this project as part of my training in the [IBM DevOps and Software Engineering Professional Certificate](https://www.coursera.org/professional-certificates/devops-and-software-engineering). It highlights the practical application of Test and Behavior Driven Development (TDD and BDD) skills acquired during the training. To accomplish this, I utilized a template provided by IBM Developer Skills Network, with the original repository available at the following address: [xgcyk-tdd-bdd-final-project-template](https://github.com/ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template).
+This final project is an **industry-based** case study involving the development of a microservice for a product catalog backend used in an eCommerce application. I undertook this project as part of my training in the [IBM DevOps and Software Engineering Professional Certificate](https://www.coursera.org/professional-certificates/devops-and-software-engineering). It highlights the practical application of Test and Behavior Driven Development (TDD and BDD) skills acquired during the training. To achieve this, I used [this template](https://github.com/ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template) provided by IBM Developer Skills Network.
 
 ## Table of Contents
 
@@ -37,10 +37,10 @@ This project aims to create a microservice for a product catalog backend for an 
 ### Tools and Frameworks
 
 - Flask (for the REST API microservice)
-- Pytest (for TDD)
+- Nose (for TDD)
+- factory-boy (for creating test data)
 - Selenium (for BDD)
 - Behave (for BDD scenarios)
-- Linter (for code linting)
 
 ## Installation
 
@@ -48,7 +48,6 @@ This project aims to create a microservice for a product catalog backend for an 
 
 - Python 3.8
 - pip (Python package manager)
-- [Add other prerequisites as needed]
 
 ### Installation Steps
 
@@ -80,11 +79,8 @@ Ensure the Python environment is properly set up with Python 3.8. Dependencies s
 
 ### Environment Variables
 
-List all necessary environment variables:
-
 - `FLASK_ENV=development`
 - `DATABASE_URL=sqlite:///products.db`
-- [Add other variables as needed]
 
 ## Usage
 
@@ -201,12 +197,12 @@ The TDD and BDD techniques implemented in this project ensure the most comprehen
 Execute the following command to run the unit tests and measure code coverage. Ensure the project maintains at least 95% code coverage:
 
 ```bash
-nosetests --with-coverage --cover-erase --cover-package=app
+nosetests --with-coverage --cover-erase --cover-package=service
 ```
 
 - `--with-coverage`: Activates the coverage plugin.
 - `--cover-erase`: Clears previous coverage data.
-- `--cover-package=app`: Measures coverage for the app package only.
+- `--cover-package=service`: Measures coverage for the service package only.
 
 ### Behavior Tests
 
@@ -294,7 +290,7 @@ docker run -d -p 5000:5000 --name product-catalog product-catalog
 ## Source
 
 - **Template : [ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template](https://github.com/ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template)**
-- Useful links :
+- **Useful links** :
 
   - **[Introduction to Test and Behavior Driven Development](https://www.coursera.org/learn/test-and-behavior-driven-development-tdd-bdd/home/week/1)**
 
