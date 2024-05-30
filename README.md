@@ -15,7 +15,7 @@ This final project is an **industry-based** case study involving the development
 9. [License](#license)
 10. [Contact](#contact)
 
-## Introduction 
+## Introduction <a name="introduction"></a>
 
 ### Project Objective
 
@@ -27,7 +27,7 @@ This project aims to create a microservice for a product catalog backend for an 
 - Search for products by category, availability, and name.
 - Administrative user interface for managing products with BDD scenarios.
 
-## Technologies Used
+## Technologies Used <a name="technologies-used"></a>
 
 ### Programming Languages
 
@@ -79,7 +79,7 @@ Ensure the Python environment is properly set up with Python 3.8. Dependencies s
 - `FLASK_ENV=development`
 - Other required configuration items are already defined in the [service/config.py](https://github.com/fkanedev/fkctp-flask-Product-Catalog-ms-tdd-bdd/blob/main/service/config.py) file.
 
-## Usage
+## Usage <a name="usage"></a>
 
 ### Usage Instructions
 
@@ -140,7 +140,7 @@ To list products by name, send a GET request to the `/products?name=<product_nam
 curl -X GET http://localhost:5000/products?name=Sample+Product
 ```
 
-## Development
+## Development <a name="development"></a>
 
 ### Project Structure
 
@@ -184,7 +184,7 @@ The data model for our product catalog is designed to store essential informatio
 
 This data model is designed to provide a flexible structure while ensuring that all necessary information is easily accessible for users of our application.
 
-## Testing
+## Testing <a name="testing"></a>
 
 The TDD and BDD techniques implemented in this project ensure the most comprehensive testing possible and the maintenance of high code coverage. To verify this, you can follow the steps outlined below. 
 
@@ -217,7 +217,7 @@ behave
 Ensure there are seven scenarios (Read, Update, Delete a Product, List all Products, List by Category, List by Available, List by Name) and that all pass.
 
 
-## Deployment
+## Deployment <a name="deployment"></a>
 
 This project supports both manual deployment and containerized deployment using Docker. Below are the detailed instructions for each method.
 
@@ -283,7 +283,7 @@ docker build -t product-catalog .
 docker run -d -p 5000:5000 --name product-catalog product-catalog
 ```
 
-## Source
+## Source <a name="source"></a>
 
 - **Template : [ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template](https://github.com/ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template)**
 - **Useful links** :
@@ -292,11 +292,11 @@ docker run -d -p 5000:5000 --name product-catalog product-catalog
 
   - **[IBM DevOps and Software Engineering Professional Certificate](https://www.coursera.org/professional-certificates/devops-and-software-engineering)**
 
-## License
+## License <a name="license"></a>
 
 This project is licensed under the MIT License. See the `LICENSE` file for more information.
 
-## Contact
+## Contact <a name="contact"></a>
 
 ### Contact Information
 
