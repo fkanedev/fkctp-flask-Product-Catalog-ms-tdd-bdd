@@ -25,11 +25,11 @@ This final project is an **industry-based** case study involving the development
 
 ## Introduction <a name="introduction"></a>
 
-### Project Objective
+### Project Objective :
 
 This project aims to create a microservice for a product catalog backend for an eCommerce application. Administrators will use the eCommerce application's UI to maintain the product catalog.
 
-### Key Features
+### Key Features :
 
 - Create, read, update, delete, and list products by various attributes.
 - Search for products by category, availability, and name.
@@ -37,11 +37,11 @@ This project aims to create a microservice for a product catalog backend for an 
 
 ## Technologies Used <a name="technologies-used"></a>
 
-### Programming Languages
+### Programming Languages :
 
 - Python 3.8
 
-### Tools and Frameworks
+### Tools and Frameworks :
 
 - Flask (for the REST API microservice)
 - Nose (for TDD)
@@ -51,12 +51,12 @@ This project aims to create a microservice for a product catalog backend for an 
 
 ## Installation and Configuration <a name="installation-configuration"></a>
 
-### Prerequisites
+### Prerequisites :
 
 - Python 3.8
 - pip (Python package manager)
 
-### Installation Steps
+### Installation Steps :
 
 1. Clone the GitHub repository:
 
@@ -78,18 +78,18 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-### Environment Configuration
+### Environment Configuration :
 
 Ensure the Python environment is properly set up with Python 3.8. Dependencies should be installed via `pip`.
 
-### Environment Variables
+### Environment Variables :
 
 - `FLASK_ENV=development`
 - Other required configuration items are already defined in the [service/config.py](https://github.com/fkanedev/fkctp-flask-Product-Catalog-ms-tdd-bdd/blob/main/service/config.py) file.
 
 ## Usage <a name="usage"></a>
 
-### Usage Instructions
+### Usage Instructions :
 
 To start the application, use the following command:
 
@@ -97,7 +97,7 @@ To start the application, use the following command:
 flask run
 ```
 
-### Use Case Examples
+### Use Case Examples :
 
 - **Create a product:**
 To create a product, send a POST request to the `/products` endpoint with the product details in the request body.
@@ -150,7 +150,7 @@ curl -X GET http://localhost:5000/products?name=Sample+Product
 
 ## Development <a name="development"></a>
 
-### Project Structure
+### Project Structure :
 
 This backend project is primarily organized around the Flask framework. The directory structure includes the following folders:
 - `service`: Contains routes and data models.
@@ -177,7 +177,7 @@ This backend project is primarily organized around the Flask framework. The dire
 └── ...
 ```
 
-### Database
+### Database :
 
 PostgreSQL serves as the database, accessible through the connection URI specified in the environment variables.SQLAlchemy acts as the Object Relational Mapper (ORM) for interacting with the database. Integrated with Flask through Flask-SQLAlchemy, it provides an interface to create and manage database tables and perform CRUD (Create, Read, Update, Delete) operations with Python.
 ### Data Model (About the Product Model)
@@ -196,7 +196,7 @@ This data model is designed to provide a flexible structure while ensuring that 
 
 The TDD and BDD techniques implemented in this project ensure the most comprehensive testing possible and the maintenance of high code coverage. To verify this, you can follow the steps outlined below. 
 
-### Unit Tests
+### Unit Tests :
 
 Execute the following command to run the unit tests and measure code coverage. Ensure the project maintains at least 95% code coverage:
 
@@ -208,7 +208,7 @@ nosetests --with-coverage --cover-erase --cover-package=service
 - `--cover-erase`: Clears previous coverage data.
 - `--cover-package=service`: Measures coverage for the service package only.
 
-### Behavior Tests
+### Behavior Tests :
 
 In one terminal, start the application using:
 
@@ -229,7 +229,7 @@ Ensure there are seven scenarios (Read, Update, Delete a Product, List all Produ
 
 This project supports both manual deployment and containerized deployment using Docker. Below are the detailed instructions for each method.
 
-### Manual Deployment
+### Manual Deployment :
 
 The manual deployment strategy involves directly setting up the environment and running the application on the host machine. This method is simple and suitable for small-scale deployments or development purposes. However, it requires manual setup and is less scalable for larger applications.
 
@@ -263,7 +263,7 @@ pip install -r requirements.txt
 flask run
 ```
 
-### Containerized Deployment
+### Containerized Deployment :
 
 The containerized deployment strategy involves packaging the application and its dependencies into a Docker container. This ensures consistency and portability across different environments. Docker containers can be easily managed, scaled, and deployed on various platforms, making this method efficient for both development and production environments.
 
@@ -291,7 +291,7 @@ docker build -t product-catalog .
 docker run -d -p 5000:5000 --name product-catalog product-catalog
 ```
 
-## Source <a name="source"></a>
+## Sources <a name="source"></a>
 
 - **Template : [ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template](https://github.com/ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template)**
 - **Useful links** :
@@ -306,13 +306,13 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact <a name="contact"></a>
 
-### Contact Information
+### Contact Information :
 
-- Send me email : fkanecloudtech@gmailcom
+- Send me email : **fkanecloudtech@gmailcom**
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile/)
 - Visit my [portfolio](https://yourname.github.io) to explore my projects and services.
 
 
-### Contribution and Support
+### Contribution and Support :
 
 Contributions are welcome. Please refer to the `CONTRIBUTING.md` file for more information on how to contribute.
