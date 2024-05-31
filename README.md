@@ -1,3 +1,11 @@
+![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue.svg)
+![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-b5f05d.svg)
+![Uses SQLAlchemy](https://img.shields.io/badge/Uses-SQLAlchemy-orange.svg)
+![Uses Factory Boy](https://img.shields.io/badge/Uses-Factory--Boy-brightgreen)
+![Powered by PostgreSQL](https://img.shields.io/badge/Powered%20by-PostgreSQL-336791.svg)
+![Coverage Status](https://img.shields.io/badge/Coverage-95%25-green)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Product Catalog Project
 
 This final project is an **industry-based** case study involving the development of a microservice for a product catalog backend used in an eCommerce application. I undertook this project as part of my training in the [IBM DevOps and Software Engineering Professional Certificate](https://www.coursera.org/professional-certificates/devops-and-software-engineering). It highlights the practical application of Test and Behavior Driven Development (TDD and BDD) skills acquired during the training. To achieve this, I used [this template](https://github.com/ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template) provided by IBM Developer Skills Network.
@@ -300,7 +308,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ### Contact Information
 
-For any questions, contributions, or support, please contact:
+- Send me email : fkanecloudtech@gmailcom
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile/)
+- Visit my [portfolio](https://yourname.github.io) to explore my projects and services.
 
 
 ### Contribution and Support
