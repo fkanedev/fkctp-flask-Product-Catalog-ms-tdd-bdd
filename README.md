@@ -10,6 +10,10 @@
 
 This final project is an **industry-based** case study involving the development of a microservice for a product catalog backend used in an eCommerce application. I undertook this project as part of my training in the [IBM DevOps and Software Engineering Professional Certificate](https://www.coursera.org/professional-certificates/devops-and-software-engineering). It highlights the practical application of Test and Behavior Driven Development (TDD and BDD) skills acquired during the training. To achieve this, I used [this template](https://github.com/ibm-developer-skills-network/xgcyk-tdd-bdd-final-project-template) provided by IBM Developer Skills Network.
 
+# Topics
+
+`Python 3.8`, `Flask`, `SQLAlchemy`, `Factory Boy`, `PostgreSQL`, `REST API`, `TDD`, `BDD`, `Nose`, `Selenium`, `Behave`, `Microservices`, `Product Catalog`, `eCommerce`, `CRUD Operations`, `Unit Testing`, `Behavior Testing`, `Docker`, `Manual Deployment`, `Containerized Deployment`, `IBM DevOps and Software Engineering`, `MIT License`
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
