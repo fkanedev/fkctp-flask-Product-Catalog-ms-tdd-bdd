@@ -312,9 +312,9 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ### Contact Information :
 
-- Send me email : **fkanecloudtech@gmailcom**
-- Connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile/)
-- Visit my [portfolio](https://yourname.github.io) to explore my projects and services.
+- Send me email : **fkanecloudtech@gmail.com**
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/fkanecloudtech/)
+- Visit my [portfolio](https://fkanedev.github.io) to explore my projects and services.
 
 
 ### Contribution and Support :
